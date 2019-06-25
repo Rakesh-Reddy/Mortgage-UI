@@ -52,7 +52,6 @@ class SignUpMortGage extends Component {
 
     render() {
         const {getUserDetails} = this.state;
-        // console.log('session stotage 2' ,this.state.getUserDetails);
         return (
             <div className="pt-5 ">
                 <div className="row">
