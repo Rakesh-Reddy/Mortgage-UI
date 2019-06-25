@@ -39,7 +39,7 @@ class AccountSummary extends Component {
 
     getData = () => {
         return new Promise((resolve, reject) => {
-            axios.get(`http://10.117.189.231:9090/mortgage/api/summary/2`).then((response) => {
+            axios.get(`http://52.66.212.220:9090/mortgage/api/summary/2`).then((response) => {
                 resolve(response);
             }).catch(function (error) {
                 reject(error);

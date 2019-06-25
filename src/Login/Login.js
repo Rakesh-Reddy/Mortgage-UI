@@ -80,7 +80,7 @@ class Login extends Component {
   }
 
   gotoHome = () => {
-    axios.post('http://10.117.189.122:9090/mortgage/api/login/',this.state.loginData).then((response) => {
+    axios.post('http://52.66.212.220:9090/mortgage/api/login/',this.state.loginData).then((response) => {
         swal('Login Successful');
         sessionStorage.setItem('customerId',JSON.stringify(response.data.customerId));
         //  this.props.history.push('/signupDetails/' + response.data.customerId);
